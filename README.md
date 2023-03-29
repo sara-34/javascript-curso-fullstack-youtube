@@ -1,3 +1,4 @@
+>http://localhost:8080/README/index.html
 # CV
 ## Sara Arias Londoño
 ##### – Pereira – Colombia
@@ -22,4 +23,22 @@ vivir de las personas, también en el corto plazo de 2 a 4 anios ir avanzando en
 conseguir un nivel Senior o Tech Lead.
 - **Experiencia Laboral**
 Engranaje Studios Julio 2021 – Presente.
-Desarrollo de Realidad Aumentada y realización de páginas web en JavaScript, ReactJS
+Desarrollo de Realidad Aumentada y realización de páginas web en JavaScript, ReactJS.
+
+
+## Comandos Utiles
+>- pwd : Muestra la ubicacion donde nos encontramos.
+>- date : muestra fecha y hora actual de la maquina.
+>- uptime: tiempo que el computador lleva encendido.
+>- cal: calendario.
+>- df: espacio libre que hay en el disco duro.
+>- whoami: muestra el nombre del usuario actual.
+
+## Alias.
+
+> alias npmd = "npm run dev" 
+>Ejecuta el script desarrollado que se le define.
+> alias npms = "npm star"
+> Especifica la propiedad del paquete en el script.
+
+  
