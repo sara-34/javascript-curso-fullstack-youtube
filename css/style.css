@@ -1,0 +1,52 @@
+body{
+    background: white;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background: mediumpurple;
+
+}
+
+div{
+    background: palegoldenrod;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+}
+
+p{
+    background: papayawhip;
+    color: black;
+}
+.hermano span{
+    background-color: rebeccapurple;
+    font-weight: bold;
+}
+
+.bisnieto span{
+    font-weight: bold;
+}
+
+.sobrino{
+    background-color: teal;
+}
+
+p + p{
+    color: tomato;
+}
+
+main{
+    width: 600px;
+}
+
+div{
+    padding: 20px;
+    border: 1px solid tomato;
+}
+
+.column{
+    display: inline-block;
+    width: calc(33.1% - 40px);
+}
