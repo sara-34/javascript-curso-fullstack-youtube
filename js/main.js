@@ -23,3 +23,30 @@ typeof obj === "object" && obj != null;
 let name = "Sara";
 let nickname = name;
 name = "Motas"
+
+
+//Lista de frutas.
+
+const fruits = ["Banana", "Orange", "Apple"];
+   
+fruits[0];
+
+for (let i = 0; i < fruits.length; i++) {
+        console.log(fruits[i]);
+    
+}
+
+// Calentamiento Escribir un objeto humano que me represente.
+
+const human = {
+    nombre: "Sara",
+    apellido: "Arias londoño",
+    edad: 19,
+    perritos:9,
+    gatos:2,
+    comidaFav: "Pasta",
+    hobbie: "Leer"
+}
+
+
+
