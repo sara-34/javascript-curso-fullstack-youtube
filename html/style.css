@@ -1,10 +1,88 @@
-body{
-    background-image: url(https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+html {
+    box-sizing: border-box;
+}
+
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    color: #333;
+    background-color: #eee;
     max-width: 800px;
     margin: 100px auto;
     background-repeat: no-repeat;
     padding: 0 40px;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+label,
+input:not([type="radio"], [type="checkbox"]) {
+    width: 100%;
+
+}
+
+label,
+input {
+    vertical-align: middle;
+}
+
+label,
+legend {
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #444;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 8px 10px;
+    color: #333;
+
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    resize: vertical;
+
+}
+
+.help {
+    font-size: 12px;
+    margin-top: 10px;
+    color: gray;
+}
+
+button{
+    padding: 16px 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #713f12;
+    background-color: #eab308;
+    color: #333;
+    border-radius: 8px;
+    text-shadow: -1px -1px 0 #fde047;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fde047;
+}
+
+button:active{
+    background-color: #ca8a04;
+    box-shadow: none;
 }
