@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:[first] 40px [line2] 50px [line3]auto [col4-star] 50px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    border: 2px dashed turquoise;
+    height: 100%;
+    
+   
+}
+
+.grid-item{
+    width: auto;
+    height: auto;
+}
+
+.grid-item{
+    border: 2px solid black;
+    width: 200px;
+    height: 70px;
+    background: papayawhip;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.item-a{
+    background: gold;
+    grid-column: line3 / five;
+    grid-row: third-line / last-line;
+}
