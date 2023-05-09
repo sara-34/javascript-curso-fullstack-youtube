@@ -1,0 +1,13 @@
+@import "bootstrap/scss/bootstrap";
+
+body{
+    background-color: aquamarine;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@include media-breakpoint-up(lg){
+    body{
+        background-color: aliceblue;
+    }
+}
